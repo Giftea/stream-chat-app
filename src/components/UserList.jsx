@@ -72,6 +72,7 @@ const UserList = ({ setSelectedUsers }) => {
         }
 
         if(client) getUsers()
+        //eslint-disable-next-line
     }, []);
 
     if(error) {
